@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <!-- Estilos base de la página que usamos como template -->
+    <link rel="stylesheet" href="base.css" />
+    <!-- Estilos de la clase -->
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS - Introducción a CSS</title>
+  </head>
+  <body>
+    <h1>1.5 CSS 101</h1>
+    <hr class="hr" />
+
+    <!-- ************************* selectores ************************* -->
+    <h2>Selector de ID:</h2>
+    <div class="code">#selectorId {color: #8c54fb}</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+        <p id="selectorId">Joaquín</p>
+        <p id="jaim">Jaim</p>
+    </div>
+    <!-- fin código de clase -->
+
+
+    <hr class="hr" />
+    <h2>Selector de clase:</h2>
+    <div class="code">.selectorClase { color: #e11d48}</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="selectorClase">Lorem Ipsum Dolor</p>
+      <p class="otraClase grande">No hay nada</p>
+    </div>
+    <!-- fin código de clase -->
+
+
+    <hr class="hr" />
+    <h2>Etiqueta:</h2>
+    <div class="code">h5 { color: #e11d48}</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <h5>Esto es un texto</h5>
+    </div>
+    <!-- fin código de clase -->
+
+    <hr class="hr" />
+    <h2>Unidades de medida:</h2>
+
+    <h3>Unidades absolutas</h3>
+    <span>
+      👉🏽 px (más usados) 👉🏽 Otras medidas no usadas: cm, mm, in, pt, pc
+    </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="texto-verde">Jaim juega</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <h3>Unidades relativas</h3>
+    <span> 👉🏽 em (más usados) </span>
+    <!-- inicio código de clase -->
+    <div class="container small-font">
+      <p class="em">Texto en em</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 rem (más usados) </span>
+    <!-- inicio código de clase -->
+    <div class="container small-font">
+      <p class="rem">Texto en rem</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 "%" porcentaje (más usados) </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-mediana">
+        <div class="porcentaje">Contenido porcentaje</div>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 vh (viewport height) </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-mediana">
+        <div class="vh">Viewport height</div>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 vw (view width) </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-mediana">
+        <div class="vw">Viewport width</div>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <hr class="hr" />
+    <h2>Background y Color</h2>
+
+    <h3>Background</h3>
+    <span>🎨 background-color</span>
+    <div class="code">background-color: crimson;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja bg-color">Background Color</div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span>🎨 background-img</span>
+    <div class="code">background-img: url('./img/imagen.png');</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja bg-img"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span>🎨 background-repeat</span>
+    <div class="code">background-repeat: repeat;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja bg-repeat"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span>🎨 background-attachment</span>
+    <div class="code">background-attachment: fixed;</div>
+    <!-- inicio código de clase -->
+      <div class="container">
+        <div class="caja bg-attach"></div>
+      </div>
+    <!-- fin código de clase -->
+
+    <span>🎨 background-position y background-size</span>
+    <div class="code">
+      background-position: center; || background-size: cover;
+    </div>
+    <!-- inicio código de clase -->
+
+    <!-- fin código de clase -->
+
+    <h3>Color</h3>
+    <div class="code">color: crimson;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="crimson">Lorem Ipsum Dolor sit Amet</p>
+    </div>
+    <!-- fin código de clase -->
+    <hr class="hr" />
+    <h2>Box Shadow</h2>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 offset XY </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow offsetxy"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 blurRadius </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow blurRadius"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 spreadRadius </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow spreadRadius"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 color </span>
+    <!-- inicio código de clase -->
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow colorShadow"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 inset </span>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="caja-shadow inset"></div>
+    </div>
+    <!-- fin código de clase -->
+
+    <hr class="hr" />
+
+    <h2>Tipografías</h2>
+
+    <span> 👉🏽 font-family:</span>
+    <div class="code">font-family: 'Danfo';</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="fuente">Lorem ipsum dolor sit amet</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 font-weight: </span>
+    <div class="code">font-weight: bold;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="font-weight-100">Londrina Font-weight-100</p>
+      <p class="font-weight-300">Londrina Font-weight-300</p>
+      <p class="font-weight-400">Londrina Font-weight-400</p>
+      <p class="font-weight-900">Londrina Font-weight-900</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 font-style: </span>
+    <div class="code">font-style: italic;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="font-style">Font-style</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 font-size: </span>
+    <div class="code">font-size: 2rem;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="font-size">Font-size 2rem</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 letter-spacing: </span>
+    <div class="code">letter-spacing: 5px;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p class="letter-spacing">letter-spacing</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 word-spacing: </span>
+    <div class="code">word-spacing: 30px;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <p>😁 texto: word-spacing</p>
+    </div>
+    <div class="container">
+      <p class="word-spacing">😁 texto: word-spacing</p>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 line-height: </span>
+    <div class="code">line-height: 50px;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="line-height">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minus rem suscipit iure, numquam animi, atque consequatur, dolor aliquid quo dicta totam rerum quaerat quia cum laborum ullam? Laborum, sapiente.</p>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 text-align: </span>
+    <div class="code">text-align: center;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="text-align-center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim incidunt aspernatur perspiciatis! Enim repellendus deleniti ab possimus deserunt eveniet quaerat perspiciatis. Quibusdam natus aspernatur id odio et quasi aliquam.</p>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <div class="code">text-align: justify;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="text-align-justify">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim incidunt aspernatur perspiciatis! Enim repellendus deleniti ab possimus deserunt eveniet quaerat perspiciatis. Quibusdam natus aspernatur id odio et quasi aliquam.</p>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 text-transform: </span>
+    <div class="code">text-transform: uppercase;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="text-transform">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, animi!</p>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <span> 👉🏽 text-decoration: </span>
+    <div class="code">text-decoration: underline;</div>
+    <!-- inicio código de clase -->
+    <div class="container">
+      <div class="text-decoration">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo natus, voluptas nisi obcaecati nesciunt atque?</p>
+      </div>
+    </div>
+    <!-- fin código de clase -->
+
+    <hr class="hr" />
+
+    <h2>Estilos para listas</h2>
+    <span> 👉🏽 list-style-type </span>
+    <div class="code"> 👉🏽 list-style-type: none </div>
+    <!-- inicio código de clase -->
+    <ul class="container list-none">
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+    </ul>
+    <!-- fin código de clase -->
+
+    <div class="code"> 👉🏽 list-style-type: lower-roman </div>
+    <!-- inicio código de clase -->
+    <ul class="container list-lower-roman">
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+    </ul>
+    <!-- fin código de clase -->
+
+    <div class="code"> 👉🏽 list-style-type: upper-latin </div>
+    <!-- inicio código de clase -->
+    <ul class="container list-upper-latin">
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+    </ul>
+    <!-- fin código de clase -->
+
+    <div class="code"> 👉🏽 list-style-position </div>
+    <!-- inicio código de clase -->
+    <ul class="container list-position">
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+    </ul>
+    <!-- fin código de clase -->
+
+    <div class="code"> 👉🏽 list-style-image </div>
+    <!-- inicio código de clase -->
+    <ul class="container list-img">
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+      <li>Listas sin estilo</li>
+    </ul>
+    <!-- fin código de clase -->
+  </body>
+</html>
